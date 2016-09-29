@@ -41,8 +41,8 @@ Contents
 
 | step | content |
 | ---: | :--- |
-| [00_introduction](https://github.com/nkoehring/td_tutorial/tree/00_introduction) | a quick introduction |
-| [01_deadly_clicks]             | the first enemy entity |
+| [00_introduction](https://github.com/nkoehring/td_tutorial/tree/00_introduction)   | a quick introduction |
+| [01_deadly_clicks](https://github.com/nkoehring/td_tutorial/tree/01_deadly_clicks) | the first enemy entity |
 | [02_the_first_tower]           | the first tower entity |
 | [03_shooting_action]           | finally action between entities |
 | [04_take_a_walk]               | moving enemies and aiming towers |
