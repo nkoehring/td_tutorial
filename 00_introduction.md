@@ -11,14 +11,14 @@ commented code
 --------------
 
 ```js
-class Game {                    # game class
+class Game {                    // game class
   constructor(w, h) {
-    Crafty.init(w, h)           # initialise Crafty (uses element with ID cr-stage by default
-    Crafty.background("black")  # set black background
+    Crafty.init(w, h)           // initialise Crafty (uses element with ID cr-stage by default
+    Crafty.background("black")  // set black background
   }
 }
 
-new Game(800, 600)              # initialise the game with a 800x600 pixel sized field
+new Game(800, 600)              // initialise the game with a 800x600 pixel sized field
 ```
 
 As you might see, I use some ES6 fancyness, as far as things are supported in
