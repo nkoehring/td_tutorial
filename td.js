@@ -30,6 +30,7 @@ class Game {
         Crafty.log("hp is now", this.hp)
 
         if (this.hp <= 0) {
+          Crafty.log("Aw, now I have to wait until the next round!")
           this.destroy()
         }
 

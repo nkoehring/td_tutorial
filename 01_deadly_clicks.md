@@ -203,5 +203,4 @@ In this step, a simple static enemy entity is created. It has level based
 hitpoints, which will be useful later in the game. It gets damage on click,
 which is not useful for the game but good for testing.
 
-In the next step, we will create the tower entity to have something to oppose
-the enemy.
+In the [next step](https://github.com/nkoehring/td_tutorial/tree/02_the_first_tower), we will create the tower entity to have something to oppose the enemy.
