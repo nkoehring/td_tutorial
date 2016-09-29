@@ -42,14 +42,14 @@ Contents
 | step | content |
 | ---: | :--- |
 | [00_introduction](https://github.com/nkoehring/td_tutorial/tree/00_introduction) | a quick introduction |
-| [01_deadly_clicks](#)           | the first enemy entity |
-| [02_the_first_tower](#)         | the first tower entity |
-| [03_shooting_action](#)         | finally action between entities |
-| [04_take_a_walk](#)             | moving enemies and aiming towers |
-| [05_the_path](#)                | a visible path for the enemies to follow |
-| [06_tower_fields](#)            | define zones for towers |
-| [07_dragging_action](#)         | drag'n'drop towers into the field |
-| [08_losing_is_fun](#)           | enemy waves and a live counter |
+| [01_deadly_clicks]             | the first enemy entity |
+| [02_the_first_tower]           | the first tower entity |
+| [03_shooting_action]           | finally action between entities |
+| [04_take_a_walk]               | moving enemies and aiming towers |
+| [05_the_path]                  | a visible path for the enemies to follow |
+| [06_tower_fields]              | define zones for towers |
+| [07_dragging_action]           | drag'n'drop towers into the field |
+| [08_losing_is_fun]             | enemy waves and a live counter |
 
 …and probably more to come
 
