@@ -107,6 +107,9 @@ Done! The tower can now be dragged to any place and stays where it is dropped.
 Conclusion
 ----------
 
+From now on every component will reside in its own file in the `./components/`
+directory. This keeps the code more readable and clean.
+
 Thanks to the Crafty component system, this tutoral step was very short and
 simple. Now a tower can be put into the scene and even moved with the mouse.
 
