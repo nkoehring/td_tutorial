@@ -1,10 +1,7 @@
 Crafty.c("Enemy", {
-  required: "2D, Canvas, Color, Mouse",
+  required: "2D, Canvas, Color",
 
   events: {
-    Click (evt) {
-      this.hit(1)
-    }
   },
 
   init () {
