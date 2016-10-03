@@ -1,3 +1,5 @@
+const FIELD_SIZE = 20
+
 Crafty.c("Tower", {
   required: "2D, Canvas, Color, Draggable, Delay, Tween",
 
@@ -13,7 +15,7 @@ Crafty.c("Tower", {
     this.h = 15
     this.strength = 1
     this.range = 2
-    this.reloadTime = 500
+    this.reload_time = 500
     this.alpha_ready = 1.0
     this.alpha_empty = 0.5
     this.original_color = "#00FF00"
@@ -23,7 +25,7 @@ Crafty.c("Tower", {
     this.alpha = this.alpha_empty
 
     this.reload()
-    this.delay(() => { this.aimAndShoot() }, this.reloadTime, -1)
+    this.delay(() => { this.aimAndShoot() }, this.reload_time, -1)
   },
 
   aimAndShoot () {
@@ -33,7 +35,7 @@ Crafty.c("Tower", {
       const enemy = this
       const distance = Crafty.math.distance(enemy.x, enemy.y, tower.x, tower.y)
 
-      if (distance < tower.range * 20) {
+      if (distance < tower.range * FIELD_SIZE) {
         Crafty.log("Fire!")
 
         tower.color(tower.flash_color)
@@ -43,7 +45,7 @@ Crafty.c("Tower", {
           tower.color(tower.original_color)
           tower.alpha = tower.alpha_empty
           tower.reload()
-        }, tower.reloadTime*0.2, 0)
+        }, tower.reload_time*0.2, 0)
       }
     })
   },
@@ -65,7 +67,7 @@ Crafty.c("Tower", {
   },
 
   reload () {
-    this.tween({alpha: this.alpha_ready}, this.reloadTime*0.8, "linear")
+    this.tween({alpha: this.alpha_ready}, this.reload_time*0.8, "linear")
   },
 
   at (x, y) {
