@@ -1,5 +1,3 @@
-const FIELD_SIZE = 20
-
 Crafty.c("Tower", {
   required: "2D, Canvas, Color, Draggable, Delay, Tween",
 
@@ -14,8 +12,9 @@ Crafty.c("Tower", {
     this.w = 15
     this.h = 15
     this.strength = 1
-    this.range = 2
+    this.range = 20
     this.reload_time = 500
+    this.projectile_speed = 6
     this.alpha_ready = 1.0
     this.alpha_empty = 0.5
     this.original_color = "#00FF00"
@@ -39,7 +38,7 @@ Crafty.c("Tower", {
         Crafty.log("Fire!")
 
         tower.color(tower.flash_color)
-        enemy.hit(tower.strength)
+        Crafty.e("Projectile").from(tower).to(enemy).fire()
 
         tower.delay(() => {
           tower.color(tower.original_color)

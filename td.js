@@ -1,3 +1,5 @@
+window.FIELD_SIZE = 20
+
 class Game {
   constructor(w, h) {
     Crafty.init(w, h)
