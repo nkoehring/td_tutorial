@@ -45,7 +45,8 @@ Contents
 | [01_deadly_clicks](https://github.com/nkoehring/td_tutorial/tree/01_deadly_clicks)      | the first enemy entity |
 | [02_the_first_tower](https://github.com/nkoehring/td_tutorial/tree/02_the_first_tower)  | the first tower entity |
 | [03_shooting_action](https://github.com/nkoehring/td_tutorial/tree/03_shooting_action)  | finally action between entities |
-| [03.1_bling_bling](https://github.com/nkoehring/td_tutorial/tree/03.1_bling_bling)      | explosions! |
+| [03.1_bling_bling](https://github.com/nkoehring/td_tutorial/tree/03.1_bling_bling)      | projectiles! |
+| [03.2_boom_shakalaka](https://github.com/nkoehring/td_tutorial/tree/03.2_boom_shakalaka)| explosions! |
 | [04_take_a_walk]               | moving enemies and aiming towers |
 | [05_the_path]                  | a visible path for the enemies to follow |
 | [06_tower_fields]              | define zones for towers |
